@@ -1,0 +1,129 @@
+.team{
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-team{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: none;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    width: 50vw;
+}
+
+.name{
+    font-size: 2rem;
+    margin-top: 12px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.sector{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.box-link{
+    margin-top: 50px;
+}
+
+.text-link{
+    color: white;
+    align-items: center;
+}
+
+#linkedin{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+#email{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
+.image {
+    border-radius: 50%;
+    max-height: 25%;
+    object-fit: cover;
+    max-width: 206px;
+    margin-left: 49%;
+    margin-top: -36.88%;
+}
+
+
+
+@media (max-width: 600px) {
+   .card-team{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-image: none;
+        border: none;
+        border-radius: 0%;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        width: 90%;
+   }
+   .image{
+        display: block;
+        justify-content: right;
+        align-content: center;
+        margin-top: -35%;
+   }
+   .team{
+        margin: 0;
+   }
+}
+
+@media (max-width: 422px) {
+    .image{
+        height: 152px;
+        margin-top: -45%;
+        margin-left: 39%;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .sector{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 385px) {
+    .image{
+        height: 152px;
+        margin-top: -48%;
+        margin-left: 42%;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .image{
+        height: 152px;
+        margin-top: -47%;
+        margin-left: 39%;
+    }
+}

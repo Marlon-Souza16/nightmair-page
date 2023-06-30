@@ -1,0 +1,197 @@
+:root{
+
+    /* Font config */
+
+    --t-s: 1.8rem;
+    --f-c: white; 
+    --font-fam: 'Roboto', 'sans-serif';
+    --btn-size: 1.3rem;
+    --text-size:1.3rem;
+
+
+
+    /* Main Section config */
+
+    --widht: 100vw;
+    --height: auto; 
+}
+
+body{
+    font-family: var(--font-fam);
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: black;
+    justify-content: space-between;
+    padding: 1.5rem;
+    color: var(--f-c);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#icon{
+    font-size: var(--t-s);
+}
+
+/* Hamburguer menu config*/
+
+#menu{
+    display: block;
+    position: absolute;
+    width: 40vw;
+    top: 60px;
+    right: 0;
+    background-color: black;
+    transition: .6s;
+    z-index: 1000;
+    height: 0;
+    visibility: hidden;
+    font-size: var(--btn-size);
+}
+
+#nav.active #menu{
+    height: calc(100vh - 60px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#menu a{
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+
+#btn-mobile {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    gap: .5rem;
+  }
+
+#hamburguer{
+    display: block;
+    border-top: 2.6px solid white;
+    width: 20px;
+    border-color: white;
+}
+
+#hamburguer::after, #hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    margin-top: 5px;
+    position: relative;
+    transition: .5s;
+}
+
+#nav.active #hamburguer{
+    border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before{
+    transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
+}
+
+.btn1{
+    background: transparent;
+    margin-top: 2rem;
+}
+
+/* ---------------------------------------------- */ 
+
+/* Section "About" config */
+
+#about{
+    width: var(--widht);
+    max-width: 800px;
+    height: var(--height);
+    margin: auto;
+    background-color: black;
+    color: var(--f-c);
+}
+
+.title{
+    font-size: var(--t-s);
+    text-align: center;
+    margin-top: 1.2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.text{
+    font-size: var(--text-size);
+    text-align: justify;
+    margin: 2rem;
+    color: white;
+}
+
+#name{
+    color: gray;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------- */ 
+
+
+/* Section Carousel config */ 
+
+#carousel{
+    margin-top: 2rem;
+    width: var(--widht);
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.images{
+    margin-top: 1rem;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ---------------------------------------------- */ 
+
+
+/* Section Character config */ 
+
+#character{
+    margin-top: 2rem;
+    width: var(--widht);
+    height: var(--height);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;   
+}
+
+.align{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* ---------------------------------------------- */ 
