@@ -27,22 +27,22 @@
     width: 50vw;
 }
 
-.name{
+.name-team{
     font-size: 2rem;
     margin-top: 12px;
     text-align: left;
-    margin-left: 18px;
 }
 
-.sector{
+.sector-team{
     font-size: 1.3rem;
     margin-top: 10px;
     text-align: left;
-    margin-left: 18px;
 }
 
 .box-link{
     margin-top: 50px;
+    text-align: left;
+    margin-left: -3rem;
 }
 
 .text-link{
@@ -103,10 +103,10 @@
         margin-top: -45%;
         margin-left: 39%;
     }
-    .name{
+    .name-team{
         font-size: 20px;
     }
-    .sector{
+    .sector-team{
         font-size: 16px;
     }
 }

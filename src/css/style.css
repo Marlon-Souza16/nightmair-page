@@ -122,8 +122,11 @@ header{
     max-width: 800px;
     height: var(--height);
     margin: auto;
-    background-color: black;
     color: var(--f-c);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -3rem;
 }
 
 .title{
@@ -194,4 +197,36 @@ header{
     justify-content: center;
 }
 
+#play{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-btn{
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    height: auto;
+    border-radius: 50%;
+    border-color: darkred;
+    background-color: red;
+}
+
 /* ---------------------------------------------- */ 
+
+/* Footer config */ 
+
+.footer{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------- */ 
+
