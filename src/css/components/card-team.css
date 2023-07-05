@@ -1,0 +1,52 @@
+.card-team {
+  display: flex;
+  border: .2rem solid #FFF;
+  border-radius: .8rem;
+  overflow: hidden;
+}
+
+.card-team + .card-team {
+  margin-top: .8rem;
+}
+
+.card-team .card-avatar {
+  width: 32%;
+}
+
+.card-team .card-avatar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-team .card-body {
+  padding: 1.6rem;
+  gap: .8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card-team .card-body span {
+  color: #FFF;
+}
+
+.card-team .card-body span:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.card-team .card-body span:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.card-team .card-body a {
+  font-size: 1.2rem;
+}
+
+.card-team .card-body a i {
+  margin-right: .8rem;
+}

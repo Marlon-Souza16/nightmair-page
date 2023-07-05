@@ -1,0 +1,21 @@
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8a1919;
+  padding: 1.6rem 0;
+  border: 0;
+  border-radius: .8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.play-btn i {
+  font-size: 1.2rem;
+  margin-right: .8rem;
+}
+
+.play-btn:hover {
+  opacity: .8;
+}

@@ -1,0 +1,17 @@
+:root{
+
+  /* Font config */
+
+  --t-s: 2.4rem;
+  --f-c: white;
+  --font-fam: 'Red Hat Mono', monospace;
+  --btn-size: 1.3rem;
+  --text-size: 1.6rem;
+
+
+
+  /* Main Section config */
+
+  --widht: 100vw;
+  --height: auto;
+}

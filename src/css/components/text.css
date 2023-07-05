@@ -1,0 +1,28 @@
+.text{
+  font-size: var(--text-size);
+  line-height: 3.2rem;
+  color: white;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.quote {
+  margin-top: 1.6rem;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1.6rem 2.4rem ;
+  width: 100%;
+  font-size: 3.2rem;
+  border: 0;
+  border-radius: .8rem;
+}
+
+.title{
+  font-size: var(--t-s);
+  line-height: 4.8rem;
+  font-weight: 700;
+  margin-top: 3.2rem;
+  color: white;
+}
