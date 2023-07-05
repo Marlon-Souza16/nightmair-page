@@ -24,7 +24,7 @@ header > img {
 #menu{
   display: block;
   position: absolute;
-  width: 40vw;
+  width: 50%;
   top: 100px;
   right: 40px;
   background-color: black;
